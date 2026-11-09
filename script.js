@@ -1,11 +1,11 @@
-// بيانات الأفلام (أضفنا رابط فيديو لكل فيلم)
+// بيانات الأفلام (روابط فيديو خفيفة وسريعة)
 const movies = [
-    { title: "فيلم أكشن", poster: "https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg", video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" },
-    { title: "مسلسل درامي", poster: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg", video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" },
-    { title: "أنيميشن", poster: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg", video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" },
-    { title: "وثائقي", poster: "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg", video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" },
-    { title: "فيلم خيال علمي", poster: "https://image.tmdb.org/t/p/w500/5P8SmMzSNYikXpxil6BYzJ16611.jpg", video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4" },
-    { title: "فيلم رعب", poster: "https://image.tmdb.org/t/p/w500/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg", video: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4" }
+    { title: "فيلم أكشن", poster: "https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg", video: "https://www.w3schools.com/html/mov_bbb.mp4" },
+    { title: "مسلسل درامي", poster: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg", video: "https://www.w3schools.com/html/movie.mp4" },
+    { title: "أنيميشن", poster: "https://image.tmdb.org/t/p/w500/q719jXXEzOoYaps6babgKnONONX.jpg", video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" },
+    { title: "وثائقي", poster: "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg", video: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4" },
+    { title: "فيلم خيال علمي", poster: "https://image.tmdb.org/t/p/w500/5P8SmMzSNYikXpxil6BYzJ16611.jpg", video: "https://www.w3schools.com/html/mov_bbb.mp4" },
+    { title: "فيلم رعب", poster: "https://image.tmdb.org/t/p/w500/6WxhEvFsauuACfv8HyoVX6mZKFj.jpg", video: "https://www.w3schools.com/html/movie.mp4" }
 ];
 
 const grid = document.getElementById('movieGrid');
